@@ -14,6 +14,8 @@
 		7B6FC4A122FBC99C00D4890A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FC4A022FBC99C00D4890A /* Assets.xcassets */; };
 		7B6FC4A422FBC99C00D4890A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FC4A222FBC99C00D4890A /* LaunchScreen.storyboard */; };
 		7B6FC4A722FBC99C00D4890A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FC4A622FBC99C00D4890A /* main.m */; };
+		85281CB32440CAD600564176 /* CustomOperation1.m in Sources */ = {isa = PBXBuildFile; fileRef = 85281CB22440CAD600564176 /* CustomOperation1.m */; };
+		85281CB62440D0E000564176 /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85281CB52440D0E000564176 /* NSOperationQueueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		7B6FC4A322FBC99C00D4890A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B6FC4A522FBC99C00D4890A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6FC4A622FBC99C00D4890A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85281CB12440CAD600564176 /* CustomOperation1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOperation1.h; sourceTree = "<group>"; };
+		85281CB22440CAD600564176 /* CustomOperation1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOperation1.m; sourceTree = "<group>"; };
+		85281CB42440D0E000564176 /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
+		85281CB52440D0E000564176 /* NSOperationQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,12 @@
 				7B6FC49822FBC99800D4890A /* AppDelegate.m */,
 				7B6FC49A22FBC99800D4890A /* ViewController.h */,
 				7B6FC49B22FBC99800D4890A /* ViewController.m */,
+				85281CB42440D0E000564176 /* NSOperationQueueViewController.h */,
+				85281CB52440D0E000564176 /* NSOperationQueueViewController.m */,
 				7B2D024023025E680087C939 /* CustomOperation.h */,
 				7B2D024123025E680087C939 /* CustomOperation.m */,
+				85281CB12440CAD600564176 /* CustomOperation1.h */,
+				85281CB22440CAD600564176 /* CustomOperation1.m */,
 				7B6FC49D22FBC99800D4890A /* Main.storyboard */,
 				7B6FC4A022FBC99C00D4890A /* Assets.xcassets */,
 				7B6FC4A222FBC99C00D4890A /* LaunchScreen.storyboard */,
@@ -146,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85281CB62440D0E000564176 /* NSOperationQueueViewController.m in Sources */,
 				7B2D024223025E680087C939 /* CustomOperation.m in Sources */,
+				85281CB32440CAD600564176 /* CustomOperation1.m in Sources */,
 				7B6FC49C22FBC99800D4890A /* ViewController.m in Sources */,
 				7B6FC4A722FBC99C00D4890A /* main.m in Sources */,
 				7B6FC49922FBC99800D4890A /* AppDelegate.m in Sources */,
